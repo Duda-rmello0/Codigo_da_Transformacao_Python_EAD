@@ -1,4 +1,3 @@
-'''
 import json
 
 clientes = {
@@ -16,4 +15,3 @@ with open("clientes.json", "r", encoding="utf-8") as arquivo_json:
 
 print("\n--- Dados carregados do JSON ---")
 print(dados_carregados)
-'''
