@@ -3,7 +3,8 @@ tabela ascii, Faz a tradução de uma string (letras e números) para símbolos 
 Sem o uso dela seria somente a leitura em booleano, ou seja, 0 ou 1.
 realiza as traduções, como apple para maçã.
 
-Com basse nesse código preciso que me ensine passo a passo como deixar em formato GUI usando tkinter e menssagembox
+Com basse nesse código preciso que me ensine passo a passo como deixar em formato GUI 
+usando tkinter e menssagembox
 
 '''
 
