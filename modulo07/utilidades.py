@@ -20,7 +20,7 @@ def subtrair(a, b):
     return a - b
 
 
-def multiplicacao(a, b):
+def multiplicar(a, b):
 
     return a * b
 
@@ -45,7 +45,7 @@ def resto_divisao(a, b):
         return "Erro: Divisão por zero não permitida."
     return a % b
 
-def potenciacao(base, expoente):
+def potencia(base, expoente):
 
     return base ** expoente
 
