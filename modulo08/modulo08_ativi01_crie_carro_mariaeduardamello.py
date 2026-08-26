@@ -1,3 +1,4 @@
+# O class serve para
 class Carro:
 
     def __init__(self, marca, modelo):
