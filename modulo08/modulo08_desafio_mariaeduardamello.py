@@ -53,7 +53,7 @@ minha_biblioteca = Biblioteca()
 # Adicionando livros
 l1 = Livro("Dom Casmurro", "Machado de Assis")
 l2 = Livro("O Pequeno Príncipe", "Antoine de Saint-Exupéry")
-l3 = Livro("Diário de Anne Frank", "Anne Frank")
+l3 = Livro("Diario de Anne Frank", "Anne Frank")
 
 minha_biblioteca.adicionar_livro(l1)
 minha_biblioteca.adicionar_livro(l2)
