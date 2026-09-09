@@ -47,7 +47,7 @@ def consultar_clima():
 
         # Exibição dos dados organizados
         print("\n" + "=" * 40)
-        print(f"🌍 Clima atual em: {localizacao}")
+        print(f" Clima atual em: {localizacao}")
         print("=" * 40)
         print(f"🌤️  Condição: {descricao_clima.capitalize()}")
         print(f"🌡️  Temperatura: {temperatura}°C")
@@ -56,15 +56,15 @@ def consultar_clima():
         print("=" * 40)
 
     elif resposta.status_code == 401:
-        print("\n❌ Erro 401: Chave de API não autorizada.")
+        print("\n Erro 401: Chave de API não autorizada.")
         print("Verifique se inseriu a chave correta ou se aguardou a ativação do OpenWeatherMap.")
 
     elif resposta.status_code == 404:
-        print(f"\n❌ Erro 404: Cidade '{cidade}' não encontrada.")
-        print("Verifique a grafia do nome da cidade e tente novamente.")
+        print(f"\n Erro 404: Cidade '{cidade}' não encontrada.")
+        print("Verifique e tente novamente.")
 
     else:
-        print(f"\n⚠️ Falha na requisição. Código de erro HTTP: {resposta.status_code}")
+        print(f"\n Falha na requisição. Código de erro HTTP: {resposta.status_code}")
 
 # Execução do programa
 if __name__ == "__main__":
